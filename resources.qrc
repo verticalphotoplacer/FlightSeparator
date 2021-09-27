@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="">
+        <file alias="app">icon/app.png</file>
+        <file alias="copypaste">icon/copypaste.png</file>
+        <file alias="erase">icon/erase.png</file>
+        <file alias="save2file">icon/save2file.png</file>
+    </qresource>
+</RCC>
