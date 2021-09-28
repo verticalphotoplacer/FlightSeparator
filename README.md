@@ -23,6 +23,6 @@ This software is distributed under a GNU General Public License version 3.
 ## How to cite 
 Coming soon!
 
-## Related links
+## Related tools
 * [Heading Calculator](https://github.com/verticalphotoplacer/HeadingCalculator)
 * [Vertical Photo Placer Plugin](https://github.com/verticalphotoplacer/VerticalPhotoPlacer)
