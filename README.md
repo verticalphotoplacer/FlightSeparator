@@ -13,7 +13,7 @@ It requires <b>exifread</b> library.
 
 ### Build local executable file
 
-<b>pyinstaller</b> is a recommended tool to build a local executable file.
+[pyinstaller](https://www.pyinstaller.org/) is a recommended tool to build a local executable file.
 It is recommended to build from a minimal Python environment. This will exclude unnecessary packages and create minimum size executable file.
 
 1. Create and activate a virtual environment in your [Python installation](https://www.python.org/downloads/).
