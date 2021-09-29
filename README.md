@@ -4,12 +4,28 @@ Flight Separator tool detects and separates drone photos in a folder taken in di
 
 ## Installation
 
+There are three ways to install this tool: use a [precompiled executable](#download-precompiled-executable-for-windows), run as [Python application](use-as-python-application) or [build local executable file](build-local-executable-file).
+
 ### Download precompiled executable for Windows
+
+A precompiled executable is provided at [the bin directory](https://github.com/verticalphotoplacer/FlightSeparator/tree/master/bin).
+Please download to your computer and double-click to run.
 
 ### Use as Python application
 
 Flight Separator could be used as an Python application.
 It requires <b>exifread</b> library.
+
+```
+pip install exifread
+```
+
+Then, navigate to your local flight_separator directory and run main.py
+
+```
+cd your_path/flight_separator
+python main.py
+```
 
 ### Build local executable file
 
@@ -52,6 +68,7 @@ pyinstaller --onefile main.py
 ```
 pyinstaller --onefile main.spec
 ```
+
 
 ## Usage
 
