@@ -15,7 +15,9 @@ It is recommended to build from a minimal Python environment. This will exclude 
 1. Create and activate a virtual environment in your [Python installation](https://www.python.org/downloads/).
 
 mkdir py36envtest
+
 python -m venv venv_py36
+
 venv_py36\Scripts>activate.bat
 
 2. Install dependencies
@@ -29,15 +31,16 @@ pip install pyinstaller
 3. Create specfile used in building the executable file
 
 cd your_path/flight_separator
+
 pyinstaller --onefile main.py
 
 4. Modify spec file to include all image/ui/exe/config file into the executable
 
-
+Please refers to [main.spec](https://github.com/verticalphotoplacer/FlightSeparator/blob/master/main.spec) file.
 
 5. Create executable
 
-pyinstaller --onefile <spec_file>
+pyinstaller --onefile main.spec
 
 ## Contributing
 
