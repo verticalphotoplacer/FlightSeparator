@@ -13,7 +13,7 @@ Please download to your computer and double-click to run.
 
 ### Use as Python application
 
-Flight Separator could be used as an Python application.
+Flight Separator could be used as a Python application.
 It requires <b>exifread</b> library.
 
 ```
@@ -30,7 +30,7 @@ python main.py
 ### Build local executable file
 
 [pyinstaller](https://www.pyinstaller.org/) is a recommended tool to build a local executable file.
-It is recommended to build from a minimal Python environment. This will exclude unnecessary packages and create minimum size executable file.
+It is recommended to build from a minimal Python environment. This will exclude unnecessary packages and create a minimum size executable file.
 
 1. Create and activate a virtual environment in your [Python installation](https://www.python.org/downloads/).
 
@@ -52,7 +52,7 @@ pip install exifread
 pip install pyinstaller
 ```
 
-3. Create specfile used in building the executable file
+3. Create spec file used in building the executable file
 
 ```
 cd your_path/flight_separator
@@ -61,7 +61,7 @@ pyinstaller --onefile main.py
 
 4. Modify spec file to include all image/ui/exe/config file into the executable
 
-    Please refers to [main.spec](https://github.com/verticalphotoplacer/FlightSeparator/blob/master/main.spec) file.
+    Please refer to [main.spec](https://github.com/verticalphotoplacer/FlightSeparator/blob/master/main.spec) file.
 
 5. Create executable
 
@@ -71,6 +71,34 @@ pyinstaller --onefile main.spec
 
 
 ## Usage
+
+Please follow the steps in Figure 1. The result is shown in the log.
+A folder is created for each detected flight, to store the flight's photos. 
+
+<p align="center">
+  <img align="middle" src="https://github.com/verticalphotoplacer/FlightSeparator/blob/master/docs/img/fl_howtouse.PNG?raw=true" alt="Flight Separator usage">
+  <br>
+  <br>
+  <em><b>Figure 1. Using Flight Separator</b></em>
+</p>
+
+Input folder before (Figure 2) and after running the tool (Figure 3). In this example, there are photos from 3 different flights in the input folder.
+
+<p align="center">
+  <img align="middle" src="https://github.com/verticalphotoplacer/FlightSeparator/blob/master/docs/img/original_folder.PNG?raw=true" alt="Input folder before">
+  <br>
+  <br>
+  <em><b>Figure 2. Input folder before running Flight Separator</b></em>
+</p>
+
+<p align="center">
+  <img align="middle" src="https://github.com/verticalphotoplacer/FlightSeparator/blob/master/docs/img/ran_folder.PNG" alt="Input folder after">
+  <br>
+  <br>
+  <em><b>Figure 3. Input folder after running Flight Separator</b></em>
+</p>
+
+This tool could be used to support [Vertical Photo Placer](https://verticalphotoplacer.github.io/VerticalPhotoPlacer/) which may require same-flight photos in some of its features.
 
 ## Contributing
 
