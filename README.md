@@ -2,7 +2,7 @@
 
 Flight Separator tool detects and separates drone photos in a folder taken in different flights based on timestamps. 
 
-## Usage
+## Installation
 
 ### Download precompiled executable for Windows
 
@@ -52,6 +52,8 @@ pyinstaller --onefile main.py
 ```
 pyinstaller --onefile main.spec
 ```
+
+## Usage
 
 ## Contributing
 
