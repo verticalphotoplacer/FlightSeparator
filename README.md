@@ -52,12 +52,10 @@ pip install exifread
 pip install pyinstaller
 ```
 
-3. Create spec file used in building the executable file
+4. Download the source code of Flight Separator to your local machine
 
-```
-cd your_path/flight_separator
-pyinstaller --onefile main.py
-```
+git clone https://github.com/verticalphotoplacer/FlightSeparator.git
+cd HeadingCalculator
 
 4. Modify spec file to include all image/ui/exe/config file into the executable
 
