@@ -11,7 +11,7 @@ added_files = [
          ]
 
 a = Analysis(['main.py'],
-             pathex=['D:\\Research\\Oblique Photo Browser\\Code\\flight_separator'],
+             pathex=['your_path_to_FlightSeparator_folder'],
              binaries=[],
              datas=added_files,
              hiddenimports=[],
