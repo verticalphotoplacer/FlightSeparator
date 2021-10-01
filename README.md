@@ -113,6 +113,8 @@ exe = EXE(pyz,
 pyinstaller --onefile main.spec
 ```
 
+This will create an executable file in a new directory name dist (your_path/FlightSeparator/dist)
+
 ## Usage
 
 Please follow the steps in Figure 1. The result is shown in the log.
