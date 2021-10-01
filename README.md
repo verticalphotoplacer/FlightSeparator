@@ -62,7 +62,7 @@ git clone https://github.com/verticalphotoplacer/FlightSeparator.git
 cd FlightSeparator
 ```
 
-4. Modify spec file to include all image/ui/exe/config file into the executable
+5. Change the pathex in main.spec file to your path
 
 ```
 # -*- mode: python ; coding: utf-8 -*-
@@ -107,12 +107,11 @@ exe = EXE(pyz,
           console=False )
 ```
 
-5. Create executable
+6. Create executable
 
 ```
 pyinstaller --onefile main.spec
 ```
-
 
 ## Usage
 
