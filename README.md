@@ -20,10 +20,13 @@ It requires <b>exifread</b> library.
 pip install exifread
 ```
 
-Then, navigate to your local flight_separator directory and run main.py
+Download the source code of Flight Separator to your local machine. 
+Then, navigate to your local FlightSeparator directory and run main.py.
+This will open up the application user interface for use.
 
 ```
-cd your_path/flight_separator
+git clone https://github.com/verticalphotoplacer/FlightSeparator.git
+cd FlightSeparator
 python main.py
 ```
 
