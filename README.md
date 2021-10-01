@@ -57,8 +57,10 @@ pip install pyinstaller
 
 4. Download the source code of Flight Separator to your local machine
 
+```
 git clone https://github.com/verticalphotoplacer/FlightSeparator.git
-cd HeadingCalculator
+cd FlightSeparator
+```
 
 4. Modify spec file to include all image/ui/exe/config file into the executable
 
